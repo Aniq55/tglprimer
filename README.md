@@ -71,7 +71,6 @@ A Primer on Temporal Graph Learning: benchmarks &amp; datasets
 * Where a paper spans multiple tasks (e.g., **TGN/TGAT** support both node classification and link prediction), I placed them under the task they’re most used for and referenced datasets accordingly. ([memgraph.com][25])
 * For **classification/link‐prediction** datasets, the **Temporal Graph Benchmark (TGB, NeurIPS 2023 & 2024)** is now the de-facto source of modern, large-scale temporal datasets and leaderboards (e.g., **tgbl-wiki**, **tgbl-review**, **tgbl-coin**, **tgbl-comment**, **tgbl-flight**, and node tasks **tgbn-trade/genre/reddit/token**). Consider using TGB when reproducing recent results. ([Temporal Graph Benchmark][7])
 
-If you want, I can turn this into a small **repro template** (one script per task that downloads a dataset from TGB or traffic repos and runs a baseline) — just say the word and name your preferred frameworks (PyG/DGL).
 
 [1]: https://cdn.aaai.org/ojs/20587/20587-13-24600-1-2-20220628.pdf?utm_source=chatgpt.com "Graph Neural Controlled Differential Equations for Traffic Forecasting"
 [2]: https://github.com/GestaltCogTeam/D2STGNN?utm_source=chatgpt.com "Decoupled Dynamic Spatial-Temporal Graph Neural Network for Traffic ..."
